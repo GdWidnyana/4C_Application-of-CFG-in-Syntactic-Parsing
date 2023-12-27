@@ -15,7 +15,7 @@ def run_streamlit():
     st.set_page_config(layout='wide', page_title=title)
     
     # Persiapkan aturan CNF
-    raw_cfg = baca_file('data/4C_CNF.txt')
+    raw_cfg = baca_file('data/4c_CNF.txt')
     # Konversi aturan CNF mentah ke format yang dapat dibaca oleh Python
     cnf = raw_to_cfg(raw_cfg)
 
