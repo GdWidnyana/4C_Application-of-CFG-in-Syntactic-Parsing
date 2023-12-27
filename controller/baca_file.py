@@ -1,36 +1,31 @@
-import os
-
+# Define the baca_file function
 def baca_file(filepath):
-    # persiapkan list kosong
+    # Prepare an empty list
     data = []
     
-    # ubah path ke format yang sesuai dengan sistem operasi
-    filepath = os.path.abspath(filepath)
-    
-    # periksa apakah file ada
-    if not os.path.isfile(filepath):
-        raise FileNotFoundError(f"The file '{filepath}' does not exist.")
-    
-    # buka file txt dengan mode baca
+    # Open the text file in read mode
     with open(filepath, 'r') as file: 
-        # baca setiap aturan baris per baris
+        # Read each line of the rules
         raw = file.readlines()
 
-        # tambahkan setiap aturan ke dalam list data dan hapus karakter newline
-        for aturan in raw:
-            data.append(aturan.strip('\n'))
+        # Add each rule to the data list and remove the newline character
+        for rule in raw:
+            data.append(rule.strip('\n'))
 
-    # kembalikan aturan cnf mentah
+    # Return the raw CNF rules
     return data
 
-# Ubah filepath sesuai dengan path yang diinginkan
-filepath = 'data/4C_CNF.txt'
+# Specify the file path
+filepath = 'data/4c_CNF.txt'
 
 try:
-    # Panggil fungsi baca_file dengan filepath yang baru
+    # Call the baca_file function with the specified file path
     data_cnf = baca_file(filepath)
-    
-    # Lakukan operasi lain dengan data_cnf jika diperlukan
-    print(data_cnf)
+
+    # Now data_cnf contains the content of the file '4c_CNF.txt'
+    # You can perform further operations with the data_cnf variable as needed
+    print("Content of '4c_CNF.txt':")
+    for rule in data_cnf:
+        print(rule)
 except FileNotFoundError as e:
     print(e)
