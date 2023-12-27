@@ -1,31 +1,16 @@
-# Define the baca_file function
+# membuka file aturan cnf
 def baca_file(filepath):
-    # Prepare an empty list
+    # persiapkan list kosong
     data = []
-    
-    # Open the text file in read mode
+    # buka file txt dengan mode baca
     with open(filepath, 'r') as file: 
-        # Read each line of the rules
+        # baca setiap aturan baris per baris
         raw = file.readlines()
 
-        # Add each rule to the data list and remove the newline character
-        for rule in raw:
-            data.append(rule.strip('\n'))
+        # tambahkan setiap aturan ke dalam list data dan hapus karakter newline
+        for aturan in raw:
+            data.append(aturan.strip('\n'))
 
-    # Return the raw CNF rules
+    # kembalikan aturan cnf mentah
     return data
 
-# Specify the file path
-filepath = 'data/4c_CNF.txt'
-
-try:
-    # Call the baca_file function with the specified file path
-    data_cnf = baca_file(filepath)
-
-    # Now data_cnf contains the content of the file '4c_CNF.txt'
-    # You can perform further operations with the data_cnf variable as needed
-    print("Content of '4c_CNF.txt':")
-    for rule in data_cnf:
-        print(rule)
-except FileNotFoundError as e:
-    print(e)
