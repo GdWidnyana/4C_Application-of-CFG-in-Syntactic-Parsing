@@ -1,0 +1,68 @@
+K -> S P | S P O | S P Pel | S P Ket | S P O Pel | S P O Ket | S P O Pel Ket
+S -> NP Noun | NP PropNoun | NP Pronoun |
+P -> Adv1 VP | Adv2 VP | Adv3 VP | Adv7 VP | Adv8 VP | Prep VP | Noun VP| VP Adj | VP Noun | VP Adv | Verb VP | 
+O -> NP Noun | NP PropNoun | NP Pronoun | NP Adj | Num NP | 
+Ket -> Prep Noun | Prep NP | Noun Pronoun | Prep Verb | Prep VP | VP Noun | VP NP |
+Pel -> Adv7 Verb | Prep Verb | Verb Adv6 | Adv9 Verb | Noun Verb | Adv2 Verb | Verb Verb | Adv10 Verb | Verb Noun
+NP -> NP Noun | NP PropNoun | NP Pronoun | NP Verb | NP Adj | Num NP | 
+VP -> Adv1 VP | Adv 2 VP | Adv3 VP | Adv7 VP | Adv 8 VP | Prep VP | Noun VP| VP Adj | VP Noun | VP Adv | Verb VP |
+AdjP -> AdjP Adj | VP Adj | NP Adj |  Prep Adj | Prep NP | VP Adv8 | VP Noun | Adv VP | VP Noun | 
+Num -> Num | NumP NP | Nump Noun |
+PP -> Prep Noun | Prep NP | Prep Verb |
+S -> NP Noun | NP PropNoun | NP Pronoun |
+S -> Kakak | Adik | Ayah | Pengusaha | Pemerintah | Pegawai | Kantor | Anak | Ibu | Penyanyi | Petani | Guru | Bibi | Pedagang | Ilmuan  | Mahasiswa | Dokter | Petugas | Nenek | Atlet | Relawan | Pemuda | Siswa | Pelukis| Penyair | Tim | Sepak | Bola | Musisi | Kebersihan |  Perusahaan | Teknologi | Budi | Ayu | Tina | Eka | Aditya | Dewi | Rika | Adit | Kami | Dia | Kami | Saya | Mereka |  Itu | Tersebut | 
+P -> Adv1 VP | Adv2 VP | Adv3 VP | Adv7 VP | Adv8 VP | Prep VP | Noun VP| VP Adj | VP Noun | VP Adv | Verb VP | 
+P -> Membaca | Belajar | Memasak | Membuka | Mengeluarkan | Bermain | Bekerja | Mengerjakan | Menanam | Mengadakan | Memanen | Mengajar | Memeriksa | Mencuci | Menggambar | Menjual | Meneliti | Menyiram | Merasa | Memahami | Merenovasi | Berhenti | Mengambil | Pergi | Menghadiri | Berpikir | Menyelesaikan | Meminta | Menari | Berusaha | Mempertegas | Menghadapi | Berjalan | Menyusuri | Mengajarkan | Mengolah | Terlihat | Menyiapkan | Tenggelam | Datang | Memberikan | Sanggup | Bekerja | Mendapatkan | Berharap | Mencapai | Membantu | Berlatih | Memenangkan | Berkumpul | Menyusun | Berlari | Menyelamatkan | Merayakan | Menyiapkan | Meningkatkan | Menghabiskan | Mengerjakan | Melukis | Mengabadikan | Mengungkapkan | Membeli | Bertanding | Mengikuti | Menciptakan | Merayakan | Meminta | Izin | Membersihkan | Menyambut | Pergi | Berjualan | Fokus |
+O -> NP Noun | NP PropNoun | NP Pronoun | NP Adj | Num NP | NP Verb |
+O -> Novel | Rendang | Sepeda | Tugas | Bunga | Piano | Konser | Padi | Pekerjaan | Rumah | Pelajaran | Matematika | Pasien | Baju | Lukisan | Sate | Ayam | Sianida | Materi | Kucing | Keputusan | Rapat | Masalah | Maaf | Ujian | Sampah | Presentasi | Bimbingan | Tambahan | Pujian | Kesuksesan | Korban | Pertandingan | Rencana | Liburan | Semester | Anak | Ulang | Tahun | Ayah | Panen | Waktu | Sore | Kenangan | Perasaan | Laptop | Jalan | Ibu | Usaha | Peraturan | Lagu | Izin | Sakit | Aplikasi | Eka
+Ket -> Prep NP | NP Pronoun | Prep VP | VP Noun | Verb NP | Prep Adj
+Ket -> Di | Kamar | Dapur | Taman | Perpustakaan | Halaman | Stadion | Sawah | Sungai | Laboratorium | Danau | Bawah | Pohon | Ruang | Tamu | Atas | Meja | Teras | Depan | Ke | Dalam | Hutan | Pagi | Ini | Untuk | Bertanding | Dari | Bekerja | Bermain | Berjualan | Menyiapkan | Presentasi | Demi | Meningkatkan | Panen | Mengerjakan | Tugas | Mengabadikan | Kenangan | Mengungkapkan | Perasaan | Membeli | Laptop | Mengikuti | Ujian | Menyambut | Presiden | Produktivitas | Menyusun | Rencana | Liburan | Menghadapi | Semester | Menyelamatkan | Anak | Kucing | Merayakan | Ulang Tahun | Ayah | Menghabiskan | Waktu | Sore | Meminta | Izin | Sakit | 
+Pel -> Adv7 VP | Prep VP | VP Adv6 | Adv9 VP | Noun VP | Adv2 VP | VP Verb | Adv10 VP| VP Noun
+Pel -> Kurang | Memahami | Untuk | Merenovasi | Menghadiri | Menyelesaikan | Mempertegas | Menghadapi | Menyiapkan | Memberikan | Memenangkan | Dalam | Mengambil | Karena | Mendapatkan | Bermain-main | Bekerja | Lagi | Tidak | Harus | Meminta | Latihan | Menari | Cara | Mengolah | Akan | Tenggelam | Berhasil | Mencapai | Terus | Menyusuri | Membantu | Evakuasi |
+Verb -> Membaca | Belajar | Memasak | Membuka | Mengeluarkan | Bermain | Bekerja | Mengerjakan | Menanam | Mengadakan | Memanen | Mengajar | Memeriksa | Mencuci | Menggambar | Menjual | Meneliti | Menyiram | Merasa | Memahami | Merenovasi | Berhenti | Main | Mengambil | Pergi | Menghadiri | Berpikir | Menyelesaikan | Meminta | Menari | Berusaha | Mempertegas | Menghadapi | Berjalan | Menyusuri | Mengajarkan | Mengolah | Terlihat | Menyiapkan | Tenggelam | Datang | Memberikan | Sanggup | Bekerja | Mendapatkan | Berharap | Mencapai | Membantu | Berlatih | Memenangkan | Berkumpul | Menyusun | Berlari | Menyelamatkan | Merayakan | Menyiapkan | Meningkatkan | Menghabiskan | Mengerjakan | Melukis | Mengabadikan | Menulis | Mengungkapkan | Membeli | Bertanding | Pulang | Mengikuti | Menciptakan | Merayakan | Meminta | Izin | Membersihkan | Menyambut | Pergi | Berjualan | Mengembangkan | 
+NP -> NP Noun | NP PropNoun | NP Pronoun | NP Verb | NP Adj | Num NP | 
+NP -> Kakak | Adik | Ayah | Pengusaha | Pemerintah | Pegawai | Kantor | Anak | Ibu | Penyanyi | Petani | Guru | Bibi | Pedagang | Ilmuan  | Mahasiswa | Dokter | Petugas | Nenek | Atlet | Relawan | Pemuda | Siswa | Pelukis| Penyair | Tim | Sepak | Bola | Musisi | Kebersihan |  Perusahaan | Teknologi | Budi | Ayu | Tina | Eka | Aditya | Dewi | Rika | Adit |  Kami | Dia | Saya | Mereka |  Itu | Tersebut | 
+VP -> Adv1 VP | Adv 2 VP | Adv3 VP | Adv7 VP | Adv 8 VP | Prep VP | Noun VP| VP Adj | VP Noun | VP Adv | Verb VP | 
+VP -> Membaca | Belajar | Memasak | Membuka | Mengeluarkan | Bermain | Bekerja | Mengerjakan | Menanam | Mengadakan | Memanen | Mengajar | Memeriksa | Mencuci | Menggambar | Menjual | Meneliti | Menyiram | Merasa | Memahami | Merenovasi | Berhenti | Main | Mengambil | Menghadiri | Berpikir | Menyelesaikan | Meminta | Menari | Berusaha | Mempertegas | Menghadapi | Berjalan | Menyusuri | Mengajarkan | Mengolah | Terlihat | Menyiapkan | Tenggelam | Datang | Memberikan | Sanggup | Bekerja | Mendapatkan | Berharap | Mencapai | Membantu | Berlatih | Memenangkan | Berkumpul | Menyusun | Berlari | Menyelamatkan | Merayakan | Menyiapkan | Meningkatkan | Menghabiskan | Melukis | Mengabadikan | Menulis | Mengungkapkan | Membeli | Bertanding | Mengikuti | Menciptakan | Meminta | Izin | Membersihkan | Menyambut | Pergi | Berjualan | Mengembangkan|
+AdjP -> AdjP Adj | VP Adj | NP Adj | 
+Adj -> baru | keras | senang | sibuk | sulit | sakit | tua | sibuk | senang | keras | sulit | sakit | tua |
+AdjP -> baru | keras | senang | sibuk | sulit | sakit | tua | 
+VP Adj -> sibuk | senang | keras | sulit |
+NP Adj -> sakit | tua |
+PP -> Prep NP | Prep VP
+PP -> Kamar | Dapur | Taman | Perpustakaan | Halaman | Sawah | Sungai | Laboratorium | Danau | Teras | Depan | Dalam | Hutan| Ruang | Tamu | Bawah Pohon | Bermain | Bekerja | Merenovasi | Mengambil | menghadiri | menyelesaikan | mempertegas | menghadapi | menyusuri | menyiapkan | memberikan | mendapatkan | memenangkan | bertanding | berjualan | 
+Prep Noun -> Kamar | Dapur | Taman | Perpustakaan | Halaman | Sawah | Sungai | Laboratorium | Danau |
+Prep NP -> Teras | Depan | Dalam | Hutan| Ruang | Tamu | Bawah Pohon | 
+Prep Verb -> Bermain | Bekerja | Merenovasi | Mengambil | menghadiri | menyelesaikan | mempertegas | menghadapi | menyusuri | menyiapkan | memberikan | mendapatkan | memenangkan | bertanding | berjualan |
+Prep VP -> menyusun | menghadapi | menyelamatkan | merayakan | menyiapkan | meningkatkan | menghabiskan | mengerjakan | mengabdikan | mengungkapkan | membeli | mengikuti | merayakan | meminta | menyambut | meningkatkan |
+Noun -> Kakak | Adik | Ayah | Pengusaha | Pemerintah | Pegawai | Kantor | Anak | Ibu | Penyanyi | Petani | Guru | Bibi | Pedagang | Ilmuan  | Mahasiswa | Dokter | Petugas | Nenek | Atlet | Relawan | Pemuda | Siswa | Pelukis| Penyair | Tim | Sepak | Bola | Musisi | Kebersihan |  Perusahaan | Teknologi |
+PropNoun -> Budi | Ayu | Tina | Eka | Aditya | Dewi | Rika | Adit |  Kami |
+Pronoun -> kami | mereka | saya | kamu | dia | kalian | itu | ini
+Adv1 -> sedang 
+Adv2 -> akan 
+Adv3 -> sudah
+Adv4 -> tidak
+Adv5 -> harus 
+Adv6 -> lagi
+Adv7 -> kurang
+Adv8 -> Adv3 Adv4
+Adv9 -> Adv4 Adv5
+Adv10 -> terus
+Prep -> di | ke | dari | karena | untuk | dengan | demi | dalam
+Adv1 VP -> Membaca | Belajar | Memasak | Bermain | Bekerja | Mengerjakan | Menanam | Memanen | Mengajar | Memeriksa | Mencuci | Menjual | Menyiram | 
+Adv2 VP -> Membuka | Mengeluarkan | Bermain | Mengadakan | Menggambar | Meneliti | Tenggelam | 
+Adv3 VP -> Berhenti | Mengajarkan | Pulang |
+Adv7 VP -> Memahami 
+Adv 8 VP -> Sanggup
+Prep VP -> Merenovasi | Mengambil | Menghadiri | Menyelesaikan | Mempertegas | Menghadapi | Menyiapkan | Memberikan | Mendapatkan | Memenangkan | Menyusun | Menyelamatkan | Merayakan | Meningkatkan | Menghabiskan | Mengerjakan | Mengabadikan | Mengungkapkan | Membeli | Bertanding | Bekerja | Mengikuti | Meminta | Bermain | Menyambut | Berjualan 
+Noun VP -> Menari | Mengolah | 
+VP Adj -> Merasa | Terlihat | Berlatih | Bekerja | Belajar
+VP Adv6 -> Bermain-main | Bekerja | 
+Adv9 VP -> Meminta |
+Noun VP -> Menari | Mengolah |
+Adv2 VP -> Tenggelam |
+Verb VP -> Mencapai | Belajar|
+Adv10 VP -> Menyusuri |
+VP Noun -> Membantu | 
+NP Noun -> Usaha | Peraturan | Lagu | Izin | Sakit | Aplikasi
+NP PropNoun -> Eka
