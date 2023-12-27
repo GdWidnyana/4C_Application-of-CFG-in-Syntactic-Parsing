@@ -1,4 +1,3 @@
-# membuka file aturan cnf
 def baca_file(filepath):
     # persiapkan list kosong
     data = []
@@ -14,3 +13,10 @@ def baca_file(filepath):
     # kembalikan aturan cnf mentah
     return data
 
+# Ubah filepath sesuai dengan path yang diinginkan
+filepath = r'C:\Users\Widnyana\Downloads\4c\Program\data\4c_CNF.txt'
+
+# Panggil fungsi baca_file dengan filepath yang baru
+data_cnf = baca_file(filepath)
+
+# Lakukan operasi lain dengan data_cnf jika diperlukan
