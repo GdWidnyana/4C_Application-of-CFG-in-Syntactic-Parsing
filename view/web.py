@@ -57,7 +57,7 @@ def run_streamlit():
         st.markdown("""
             <a href="https://kbbi.kemdikbud.go.id/" target="_blank">
                 <button type="button">
-                    KKBI Online
+                    KBBI Online
                 </button>
             </a>
             """, unsafe_allow_html=True)
