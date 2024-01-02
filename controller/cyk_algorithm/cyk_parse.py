@@ -22,7 +22,7 @@ def parse(cnf, daftar_kata):
     
     # Logika untuk menampilkan pesan di atas tabel
     if is_accepted:
-        placeholder.success('Kalimat diterima.')
+        placeholder.success('Kalimat diterima sebagai kalimat baku.')
         st.balloons()
     else:
         placeholder.error('Kalimat tidak diterima karena tidak sesuai pola atau persyaratan kalimat baku bahasa Indonesia atau ada kata yang belum terdaftar di database')
