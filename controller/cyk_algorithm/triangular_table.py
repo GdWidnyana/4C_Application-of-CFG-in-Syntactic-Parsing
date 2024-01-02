@@ -46,27 +46,27 @@ def filling_botton(tabel, cnf, daftar_kata):
         tabel[i][i] = sel
 
 # Isi semua tabel pengisian, dimulai dari baris 1
-def filling_all(cnf, tabel, string, baris = 1):
+def filling_all(cnf, tabel, string, baris=1):
+    is_accepted = False  # Inisialisasi variabel status penerimaan
+
     # Jika kolom pertama dalam baris terakhir bukan himpunan kosong [set()]
     if tabel[len(tabel) - 1][0] != set():
         # Jika simbol awal ada di dalamnya
         if 'X' in tabel[len(tabel) - 1][0]:
             # Tampilkan tanda bahwa kalimat diterima
-            st.success('Kalimat diterima.')
-            st.balloons()
+            is_accepted = True
         else:
             # Jika tidak, tampilkan tanda bahwa kalimat tidak diterima
-            st.error('Kalimat tidak diterima karena tidak sesuai pola atau persyaratan kalimat baku bahasa Indonesia atau ada kata yang belum terdaftar di database')
-            st.snow()
+            is_accepted = False
         
-        # Hentikan rekursi
-        return
+        # Hentikan rekursi dan kembalikan dua nilai
+        return is_accepted, tabel
 
     # Temukan baris berikutnya yang akan diisi dengan fungsi iterasi
     baris_berikutnya = iterasi(cnf, tabel, string, baris)
 
     # Panggil kembali fungsi filling_all dengan baris_berikutnya yang telah diperbarui
-    filling_all(cnf, tabel, string, baris_berikutnya)
+    return filling_all(cnf, tabel, string, baris_berikutnya)
 
 # Iterasi untuk mengisi sel tabel
 def iterasi(cnf, tabel, input_string, baris):
