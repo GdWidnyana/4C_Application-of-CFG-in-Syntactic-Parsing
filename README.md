@@ -11,5 +11,11 @@ Project ini dibangun dengan bahasa pemrograman python dengan frontend menggunaka
 Berikut ini adalah dokumentasi running programnya. 
 ![Dokumentasi Program](https://raw.githubusercontent.com/GdWidnyana/4C_Application-of-CFG-in-Syntactic-Parsing/main/screenshot_running%20program.png)
 
+Kami sudah merevisi beberapa hal :
+1. Update database kata "membelikan" dalam file 4c_CNF.txt.
+2. Mengubah rule dari VP Noun pada pola keterangan dan pelengkap menjadi VP NP.
+3. Melakukan Pengujian Ulang sehingga hasil akhir akurasi menjadi 97.8%.
+Hasil revisi laporan dilampirkan pada link drive pada bagian lampiran di laporan FP submission Oase.
+
 
 
