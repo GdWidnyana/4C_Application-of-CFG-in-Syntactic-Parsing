@@ -9,4 +9,5 @@ Project ini membahas terkait parsing kalimat baku bahasa Indonesia dengan pola f
 Parsing kalimat baku bahasa Indonesia menggunakan metode CFG (Context Free Grammar) dengan algoritma CYK (Cocke-Younger-Kasami).
 Project ini dibangun dengan bahasa pemrograman python dengan frontend menggunakan framework streamlit.
 Berikut ini adalah dokumentasi running programnya. 
-![Alt Text](https://url-gambar-anda.com/gambar.jpg](https://drive.google.com/file/d/1RWy_ATv8SL8YQMEQXwRb11ErMbxw7zsp/view?usp=drive_link)https://drive.google.com/file/d/1RWy_ATv8SL8YQMEQXwRb11ErMbxw7zsp/view?usp=drive_link)
+![screenshot_running program.png]
+
